@@ -1,0 +1,2 @@
+#! /bin/bash
+docker run --rm --volume /Users/greeny/github/onemancrew2.0:/usr/share/nginx/html -p 80:80 nginx
