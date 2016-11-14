@@ -81,9 +81,9 @@ li a, .dropdown a  {
 li a:hover,.dropdown:hover .dropdown-content {
   display: block;
 }
-  .page-nav > a{
-    display: none;
-  }
+.page-nav > a{
+  display: none;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -111,14 +111,14 @@ li a:hover,.dropdown:hover .dropdown-content {
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
   }
 
-.page-nav  a:hover, .page-nav li a:hover ,.fa:hover{
-  background-color: #22bbbb;
-  color:#ffffff;
-}
+  .page-nav  a:hover, .page-nav li a:hover ,.fa:hover{
+    background-color: #22bbbb;
+    color:#ffffff;
+  }
 
-.page-nav >a:hover, li a:hover,.dropdown:hover .dropdown-content {
-  display: block;
-
+  .page-nav >a:hover, li a:hover,.dropdown:hover .dropdown-content {
+    display: block;
+  }
 }
 
 .logo a{
