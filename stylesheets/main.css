@@ -35,7 +35,9 @@ ul{
 }
 
 .page-nav > ul ,  .page-nav > .menu-btn {
-  margin-top: 5.4rem;
+  margin-top: 6.6rem;
+
+
 }
 
 .page-nav > ul > li {
@@ -44,9 +46,9 @@ ul{
 
 li a, .dropdown a  {
   color: #333333;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
-  padding: 1.4rem 1.2rem;
+  padding: 1rem 1rem;
   line-height: 1.2rem;
   text-decoration: none;
   display: block;
@@ -92,11 +94,11 @@ li a:hover,.dropdown:hover .dropdown-content {
     display: inline-block;
     z-index: 100;
   }
-  .page-nav > a {
+  .page-nav > a ,li a, .dropdown a{
     color: #333333;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
-    padding: 1.4rem 1.2rem;
+    padding: 1rem 2rem;
     line-height: 1.2rem;
     text-decoration: none;
     display: block;
@@ -131,7 +133,7 @@ li a:hover,.dropdown:hover .dropdown-content {
 
   .page-nav ul.dropdown-content {
     right: 100%;
-    margin-top: -4rem;
+    margin-top: -3.2rem;
   }
 }
 
@@ -146,10 +148,10 @@ li a:hover,.dropdown:hover .dropdown-content {
   height: auto;
 }
 .social{
-  width: 1.8rem;
+  width: 1.5rem;
   height: auto;
   display: inline-block;
-  vertical-align: -45%;
+  vertical-align: -32%;
 }
 
 a:hover > .social {
