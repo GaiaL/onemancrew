@@ -143,7 +143,6 @@ a:hover > .social {
 }
 
 main  {
-
   position: relative;
 }
 
@@ -235,6 +234,10 @@ h3{
   text-align: left;
   font-weight: 800;
   color: #333333;
+  -webkit-margin-before: 0.1em;
+-webkit-margin-after: 0.1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
 }
 h4{
   text-align: center;
@@ -246,6 +249,10 @@ h4{
 p{
   text-align: left;
   color: #333333;
+  -webkit-margin-before: 0.1em;
+-webkit-margin-after: 0.1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
 }
 
 .copyright{
@@ -333,4 +340,85 @@ p{
   font-size: 1.4rem;
   color: #333333;
   text-decoration: none;
+}
+div .about-social {
+  width: 1.7rem;
+  height: auto;
+display: inline;
+  vertical-align: -36%;
+}
+
+div .about-social ul {
+  text-align: left;
+
+-webkit-margin-before: 0px;
+-webkit-margin-after: 0px;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0rem;
+-webkit-padding-end: 0rem;
+}
+div .about-social  li {
+    display: inline-block;
+    max-width: 2rem;
+    text-align: left;
+    -webkit-margin-before: 0rem;
+    -webkit-margin-after: 0rem;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start:0rem;
+    -webkit-padding-end: 0rem;
+    }
+
+
+div .about-social a{
+    display: inline-block;
+    max-width: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+
+}
+
+div .about{
+    display: inline-block;
+    text-align: center;
+    max-width: 50%;
+     vertical-align:top;
+}
+div .about >img {
+    max-width: 100%;
+}
+
+div .about-me{
+    display: inline-block;
+    max-width: 45%;
+  margin: 1rem;
+
+}
+div .about-me p{
+    max-width: 100%;
+    font-size: 1.2rem;
+     vertical-align:top;
+}
+
+@media only screen and (max-width: 768px) {
+  div .about {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  div .about >img {
+    max-width: 100%;
+}
+div .about-me{
+    max-width: 100%;
+    display: block;
+    margin: 0;
+}
+div .about-me p{
+      max-width: 100%
+}
 }
